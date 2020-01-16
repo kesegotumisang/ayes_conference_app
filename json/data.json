@@ -1,0 +1,163 @@
+{
+  "about": {
+    "venue": {
+      "name": "TBC",
+      "address": "Gaborone, Botswana",
+      "image_path": "images/venue.png"
+    },
+    "description": "ENTREPRENEURSHIP •TECHNOLOGY •DIGITAL •TRANSFORMATION",
+    "twitter": "https://twitter.com/androidTO",
+    "website": "http://ayes.com",
+    "contact_email": "mailto:info@ayes.com",
+    "link_types": [
+      {
+        "id": "sponsor",
+        "name": "Sponsors"
+      },
+      {
+        "id": "supporter",
+        "name": "Supporters"
+      }
+    ],
+    "links": [
+      {
+        "name": "Android Pub Night",
+        "image_path": "https://secure.meetupstatic.com/photos/event/3/1/1/5/600_475692565.jpeg",
+        "website": "http://www.meetup.com/Android-Pub-Night/",
+        "link_type_id": "sponsor"
+      },
+      {
+        "name": "Spectrum Analytics",
+        "image_path": "https://firebasestorage.googleapis.com/v0/b/devfestbotswana.appspot.com/o/spectrum.jpg?alt=media&token=e81f690d-283a-4db0-a998-cb31cd433036",
+        "website": "http://www.spectrumcs.co.bw/",
+        "link_type_id": "supporter"
+      },
+      {
+        "name": "GDG Gaborone",
+        "image_path": "https://secure.meetupstatic.com/photos/event/e/0/2/2/highres_468657378.jpeg",
+        "website": "https://www.meetup.com/GDG-Gaborone/",
+        "link_type_id": "supporter"
+      }
+    ]
+  },
+  "speakers": [
+    {
+      "id": "senwelo_lemogang",
+      "name": "Lemogang Senwelo",
+      "bio": "Lemogang is the AYES Organizer",
+      "image_path": "https://tsena.co.bw/sites/default/files/styles/730x370/public/news-photos/lemogang-senwelo.jpg?itok=JSfepYDf",
+      "company": "AYES",
+      "twitter": "https://twitter.com/",
+      "linked_in": "https://ayes.com",
+      "github": "https://github.com/"
+    },
+    {
+      "id": "tebogo_m",
+      "name": "Tebogo Mogaleemang",
+      "bio": "Founder & CEO of Spectrum Analytics",
+      "image_path": "https://firebasestorage.googleapis.com/v0/b/devfestbotswana.appspot.com/o/tebogo_1.jpg?alt=media&token=5811b3c4-baf8-41c3-bf24-391075483a34",
+      "company": "Spectrum Analytics",
+      "twitter": "https://twitter.com/SpecrumAnalytics1",
+      "linked_in": "",
+      "github": "https://github.com/tebogomogaleemang"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "main",
+      "name": "Main",
+      "color": "#F0C674"
+    },
+    {
+      "id": "track1",
+      "name": "Track 1",
+      "color": "#CC6666"
+    },
+    {
+      "id": "track2",
+      "name": "Track 2",
+      "color": "#B5BD68"
+    }
+  ],
+  "talk_types": [
+    {
+      "id": "technical",
+      "name": "Technical",
+      "material_icon": "grade",
+      "description": "This talk is considered technical"
+    },
+    {
+      "id": "room",
+      "name": "Whole Room",
+      "material_icon": "all_inclusive",
+      "description": "This talk is can be enjoyed by everyone"
+    },
+    {
+      "id": "fun",
+      "name": "Fun",
+      "material_icon": "tag_faces",
+      "description": "This talk is for fun"
+    },
+    {
+      "id": "break",
+      "name": "Break",
+      "material_icon": "free_breakfast",
+      "description": "Time for a break!"
+    }
+  ],
+  "schedule": [
+    {
+      "time": "8:00am",
+      "talks": [
+        {
+          "speaker_id": "senwelo_lemogang",
+          "track_id": "main",
+          "talk_type_id": "room",
+          "title": "Intro to AYES.",
+          "description": "What is AYES"
+        }
+      ]
+    },
+    {
+      "time": "8:30am",
+      "talks": [
+        {
+          "speaker_id": "tebogo_m",
+          "track_id": "track1",
+          "talk_type_id": "fun",
+          "title": "Silence is not closest in order, the home, or paradise, but everywhere.",
+          "description": "Samadhi is not one in chaos, the country of tantra, or paradise, but everywhere."
+        },
+        {
+          "speaker_id": "tebogo_m",
+          "track_id": "track2",
+          "talk_type_id": "room",
+          "title": "Heavens is not the holy freedom of the explosion of the conclusion.",
+          "description": "In upstairs PLURALdie silently density."
+        }
+      ]
+    },
+    {
+      "time": "9:00am",
+      "talks": [
+        {
+          "speaker_id": "senwelo_lemogang",
+          "track_id": "main",
+          "talk_type_id": "technical",
+          "title": "Gabaliums ortum in quadrata!",
+          "description": "If you travel or do with an eternal anger, control studies you."
+        }
+      ]
+    },
+    {
+      "time": "10:00am",
+      "talks": [
+        {
+          "talk_type_id": "break",
+          "title": "Time for a break!",
+          "description": "Go grab an ice cold coke and chill.."
+        }
+      ]
+    }
+  ]
+}
