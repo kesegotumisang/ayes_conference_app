@@ -28,7 +28,8 @@ class Utils {
 
   static Image image(String src, {height, width, fit}) {
     if (src.startsWith('http')) {
-      return Image(image: CachedNetworkImageProvider(src),
+      return Image(
+          image: CachedNetworkImageProvider(src),
           height: height,
           width: width,
           fit: fit);
@@ -73,7 +74,6 @@ class FadeRoute extends PageRoute {
   @override
   String get barrierLabel => null;
 
-
   @override
   Widget buildPage(BuildContext context, Animation<double> animation,
       Animation<double> secondaryAnimation) {
@@ -88,5 +88,4 @@ class FadeRoute extends PageRoute {
 
   @override
   Duration get transitionDuration => const Duration(milliseconds: 250);
-
 }

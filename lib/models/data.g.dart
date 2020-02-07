@@ -10,23 +10,25 @@ Speaker _$SpeakerFromJson(Map<String, dynamic> json) {
   return Speaker(
       json['id'] as String,
       json['name'] as String,
+      json['title'] as String,
       json['bio'] as String,
       json['image_path'] as String,
       json['company'] as String,
+      json['website'] as String,
       json['twitter'] as String,
-      json['linked_in'] as String,
-      json['github'] as String);
+      json['country'] as String);
 }
 
 Map<String, dynamic> _$SpeakerToJson(Speaker instance) => <String, dynamic>{
       'id': instance.id,
       'name': instance.name,
+      'title': instance.title,
       'bio': instance.bio,
+      'image_path': instance.imagePath,
       'company': instance.company,
+      'website': instance.website,
       'twitter': instance.twitter,
-      'github': instance.github,
-      'linked_in': instance.linkedIn,
-      'image_path': instance.imagePath
+      'lcountry': instance.country
     };
 
 Track _$TrackFromJson(Map<String, dynamic> json) {

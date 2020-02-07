@@ -1,7 +1,7 @@
 import 'dart:async';
 
+import 'package:ayes_conference_app/config.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_conference_app/config.dart';
 import 'package:icons_helper/icons_helper.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -67,12 +67,9 @@ class Reusable {
     if (speaker.twitter != "") {
       linkIcons.add(getLinkIcon("twitter", Colors.blue[300], speaker.twitter));
     }
-    if (speaker.github != "") {
-      linkIcons.add(getLinkIcon("github", Colors.black, speaker.github));
-    }
-    if (speaker.linkedIn != "") {
+    if (speaker.website != "") {
       linkIcons
-          .add(getLinkIcon("linkedin", Colors.blue[700], speaker.linkedIn));
+          .add(getLinkIcon("web", Colors.blue[700], speaker.website));
     }
 
     return linkIcons;

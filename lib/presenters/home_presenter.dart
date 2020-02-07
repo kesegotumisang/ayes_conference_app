@@ -1,17 +1,17 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:ayes_conference_app/app_config.dart';
+import 'package:ayes_conference_app/config.dart';
+import 'package:ayes_conference_app/interfaces/models.dart';
+import 'package:ayes_conference_app/interfaces/presenters.dart';
+import 'package:ayes_conference_app/interfaces/views.dart';
+import 'package:ayes_conference_app/models/conference_data.dart';
+import 'package:ayes_conference_app/models/list_items.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter_conference_app/app_config.dart';
-import 'package:flutter_conference_app/config.dart';
-import 'package:flutter_conference_app/models/conference_data.dart';
-import 'package:flutter_conference_app/models/list_items.dart';
-import 'package:flutter_conference_app/interfaces/models.dart';
-import 'package:flutter_conference_app/interfaces/presenters.dart';
-import 'package:flutter_conference_app/interfaces/views.dart';
 import 'package:flutter/widgets.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class HomePresenter implements IHomePresenter {
   final scheduleKey = PageStorageKey('scheduleKey');
@@ -111,7 +111,6 @@ class HomePresenter implements IHomePresenter {
 
   void handleNotification(
       AppConfig config, Map<String, dynamic> message) async {
-
     String title = message['notification']['title'];
     String body = message['notification']['body'] == ""
         ? 'Important notice'

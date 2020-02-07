@@ -1,10 +1,11 @@
-import 'package:flutter_conference_app/interfaces/views.dart';
-import 'package:flutter_conference_app/presenters/home_presenter.dart';
-import 'package:flutter_conference_app/widgets/about.dart';
-import 'package:flutter_conference_app/widgets/reusable.dart';
-import 'package:flutter_conference_app/widgets/schedule.dart';
-import 'package:flutter_conference_app/widgets/speakers.dart';
+import 'package:ayes_conference_app/interfaces/views.dart';
+import 'package:ayes_conference_app/presenters/home_presenter.dart';
+import 'package:ayes_conference_app/widgets/reusable.dart';
+import 'package:ayes_conference_app/widgets/schedule.dart';
+import 'package:ayes_conference_app/widgets/speakers.dart';
 import 'package:flutter/material.dart';
+
+import 'about.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -13,7 +14,9 @@ class Home extends StatefulWidget {
   }
 }
 
-class _HomeState extends State<Home> with WidgetsBindingObserver implements IHomeView {
+class _HomeState extends State<Home>
+    with WidgetsBindingObserver
+    implements IHomeView {
   HomePresenter _presenter;
 
   BuildContext _buildContext;
@@ -97,8 +100,7 @@ class _HomeState extends State<Home> with WidgetsBindingObserver implements IHom
                 title: Text('Speakers'),
               ),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.help_outline),
-                  title: Text('About'))
+                  icon: Icon(Icons.help_outline), title: Text('About'))
             ],
           )),
     );

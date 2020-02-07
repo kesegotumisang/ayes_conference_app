@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1051481996009-5ieehp3j614aj3gglc9bm34d4s2enesm.apps.googleusercontent.com</string>
+	<string>458473428470-hdkf74km0i6huiacij1afm4bdijajpdu.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1051481996009-5ieehp3j614aj3gglc9bm34d4s2enesm</string>
+	<string>com.googleusercontent.apps.458473428470-hdkf74km0i6huiacij1afm4bdijajpdu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>458473428470-s2s2vhmat9g6rdl99ldg82ledku2lges.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBvs4ohuV4XtDTmqXXnXa-U-70FbU7AW2Q</string>
+	<string>AIzaSyApzVyYPW_aaA4Rg81lJSldA8BQnRazoLo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1051481996009</string>
+	<string>458473428470</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>ca.mimic.flutterConference</string>
+	<string>org.gdggaborone.events.ayes-conference-app</string>
 	<key>PROJECT_ID</key>
-	<string>flutter-conference-adbb2</string>
+	<string>ayesbw2020</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flutter-conference-adbb2.appspot.com</string>
+	<string>ayesbw2020.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +31,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1051481996009:ios:1d59636887c8422f</string>
+	<string>1:458473428470:ios:b9cd773189e3afb50ee3d7</string>
 	<key>DATABASE_URL</key>
-	<string>https://flutter-conference-adbb2.firebaseio.com</string>
+	<string>https://ayesbw2020.firebaseio.com</string>
 </dict>
 </plist>

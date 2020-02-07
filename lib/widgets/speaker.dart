@@ -1,8 +1,8 @@
+import 'package:ayes_conference_app/models/data.dart';
+import 'package:ayes_conference_app/utils.dart';
+import 'package:ayes_conference_app/widgets/reusable.dart';
+import 'package:ayes_conference_app/widgets/talk.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_conference_app/models/data.dart';
-import 'package:flutter_conference_app/utils.dart';
-import 'package:flutter_conference_app/widgets/reusable.dart';
-import 'package:flutter_conference_app/widgets/talk.dart';
 import 'package:flutter_villains/villains/villains.dart';
 
 class SpeakerWidget extends StatelessWidget {
@@ -98,7 +98,7 @@ class SpeakerWidget extends StatelessWidget {
                                                               fontSize: 32.0),
                                                         )),
                                                     Text(
-                                                      "${boss.speaker.company}",
+                                                      "${boss.speaker.title}"+","+"${boss.speaker.company}",
                                                       style: TextStyle(
                                                           color:
                                                               Theme.of(context)

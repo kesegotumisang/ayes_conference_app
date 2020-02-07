@@ -1,9 +1,9 @@
+import 'package:ayes_conference_app/interfaces/presenters.dart';
+import 'package:ayes_conference_app/interfaces/views.dart';
+import 'package:ayes_conference_app/models/list_items.dart';
+import 'package:ayes_conference_app/presenters/about_presenter.dart';
+import 'package:ayes_conference_app/widgets/reusable.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_conference_app/interfaces/presenters.dart';
-import 'package:flutter_conference_app/interfaces/views.dart';
-import 'package:flutter_conference_app/models/list_items.dart';
-import 'package:flutter_conference_app/presenters/about_presenter.dart';
-import 'package:flutter_conference_app/widgets/reusable.dart';
 
 class AboutWidget extends StatefulWidget {
   final List<ListItem> aboutList;

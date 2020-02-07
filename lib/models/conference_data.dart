@@ -3,18 +3,17 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:flutter_conference_app/config.dart';
-import 'package:flutter_conference_app/models/list_items.dart';
-import 'package:flutter_conference_app/models/data.dart';
-import 'package:flutter_conference_app/interfaces/models.dart';
-import 'package:flutter_conference_app/interfaces/presenters.dart';
-import 'package:flutter_conference_app/utils.dart';
+import 'package:ayes_conference_app/config.dart';
+import 'package:ayes_conference_app/interfaces/models.dart';
+import 'package:ayes_conference_app/interfaces/presenters.dart';
+import 'package:ayes_conference_app/models/data.dart';
+import 'package:ayes_conference_app/models/list_items.dart';
+import 'package:ayes_conference_app/utils.dart';
 import 'package:http/http.dart' as http;
+import 'package:json_annotation/json_annotation.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-import 'package:json_annotation/json_annotation.dart';
 
 part 'conference_data.g.dart';
 
@@ -224,8 +223,8 @@ class ConferenceData implements IHomeModel {
     if (this.about.links != null) {
       this.about.linkTypes.forEach((f) {
         _aboutList.add(TitleItem(f.name));
-        _aboutList.add(
-            AboutListItem(this.about.links.where((l) => l.linkTypeId == f.id).toList()));
+        _aboutList.add(AboutListItem(
+            this.about.links.where((l) => l.linkTypeId == f.id).toList()));
       });
     }
 

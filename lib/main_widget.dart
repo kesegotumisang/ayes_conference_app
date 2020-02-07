@@ -1,9 +1,10 @@
-import 'package:flutter/services.dart';
-import 'package:flutter_conference_app/app_config.dart';
-import 'package:flutter_conference_app/config.dart';
-import 'package:flutter_conference_app/widgets/home.dart';
+import 'package:ayes_conference_app/widgets/home.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_villains/villains/villains.dart';
+
+import 'app_config.dart';
+import 'config.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -20,10 +21,8 @@ class MyApp extends StatelessWidget {
             accentColor: Config.accentColor,
             dividerColor: Config.dividerColor,
             backgroundColor: Config.backgroundColor,
-            dialogBackgroundColor: Config.bottomNavBarColor
-        ),
+            dialogBackgroundColor: Config.bottomNavBarColor),
         home: Home(),
-        navigatorObservers: [new VillainTransitionObserver()]
-    );
+        navigatorObservers: [new VillainTransitionObserver()]);
   }
 }
