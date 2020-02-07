@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:flutter_conference_app/interfaces/presenters.dart';
-import 'package:flutter_conference_app/models/data.dart';
+import 'package:ayes_conference_app/interfaces/presenters.dart';
+import 'package:ayes_conference_app/models/data.dart';
 
 abstract class IHomeModel {
   List<Speaker> speakers;

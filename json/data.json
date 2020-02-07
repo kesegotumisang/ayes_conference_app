@@ -1,7 +1,7 @@
 {
   "about": {
     "venue": {
-      "name": "TBC",
+      "name": "Gaborone International Convention Center",
       "address": "Gaborone, Botswana",
       "image_path": "images/venue.png"
     },
@@ -21,9 +21,9 @@
     ],
     "links": [
       {
-        "name": "Android Pub Night",
-        "image_path": "https://secure.meetupstatic.com/photos/event/3/1/1/5/600_475692565.jpeg",
-        "website": "http://www.meetup.com/Android-Pub-Night/",
+        "name": "ChargeUP BW",
+        "image_path": "http://chargeupbw.com/wp-content/uploads/2019/10/ChargeUP-logo-300x123.png",
+        "website": "http://chargeupbw.com/",
         "link_type_id": "sponsor"
       },
       {
@@ -42,24 +42,75 @@
   },
   "speakers": [
     {
-      "id": "senwelo_lemogang",
-      "name": "Lemogang Senwelo",
-      "bio": "Lemogang is the AYES Organizer",
-      "image_path": "https://tsena.co.bw/sites/default/files/styles/730x370/public/news-photos/lemogang-senwelo.jpg?itok=JSfepYDf",
-      "company": "AYES",
-      "twitter": "https://twitter.com/",
-      "linked_in": "https://ayes.com",
-      "github": "https://github.com/"
+      "id": "refilwe_m",
+      "name": "Refiloe Matlapeng",
+      "bio": "Refiloe is the founder and CEO of Vimo which created Vimosure. A company that revolusionises  how fleet safety and insurance is offered in Africa. She has been a nominee for a number of tech entrepreneurship awards. Refiloe has interest  in the African fintech ecosystem and has worked with various startups and government  organazations  around the world including Central Bank of Kenya and Monetary Authority of Singapore which led her magnificent work to be covered by media houses like BBC Africa, Disrupt Africa, Tech Point Africa, The Guardian and How we made it in Africa and Southern Africa Innovation support. ",
+      "image_path": "",
+      "company": "Vimosure",
+      "title": "Founder & CEO",
+      "twitter": "https://twitter.com/godly_refiloe",
+      "country": "Botswana"
     },
     {
-      "id": "tebogo_m",
-      "name": "Tebogo Mogaleemang",
-      "bio": "Founder & CEO of Spectrum Analytics",
-      "image_path": "https://firebasestorage.googleapis.com/v0/b/devfestbotswana.appspot.com/o/tebogo_1.jpg?alt=media&token=5811b3c4-baf8-41c3-bf24-391075483a34",
-      "company": "Spectrum Analytics",
-      "twitter": "https://twitter.com/SpecrumAnalytics1",
-      "linked_in": "",
-      "github": "https://github.com/tebogomogaleemang"
+      "id": "mthabisi_b",
+      "name": "Mthabisi Bokete",
+      "title": "Managing Director & Head of Business Development",
+      "bio": "Mthabisi, an MD for Digital Natives;  a fast growing disruptive, digital and development agency with branches in Botswana and Mauritius. A winner of Total start upper competition as well as winner of Huawei Most Innovative app competition  2017 for Get it Done a Free Unemployment  curbing Task Outsourcing app. Mthabisi is the developer of EZPC, a FreeRemote Electricity Top-Up App and Now digital Diamond Centrilied Digital Data- Based for citizen Identification eliminating Forams, Receipts and KYC applications to name a few. He is an alumni of the Go to Market Program- De Beers Group and Gordon Institute of Business Science.  His company is the first to design and bring Mobile digital truck which he uses for educational, Promotional, events and campaigns.",
+      "image_path": "https://firebasestorage.googleapis.com/v0/b/ayesbw2020.appspot.com/o/mthabisi_m.jpg?alt=media&token=60da5d8d-846a-4887-830f-1dfe5639b81f",
+      "company": "Digital Natives",
+      "website": "https://diginav.co",
+      "twitter": "https://twitter.com/",
+      "country": "Botswana"
+    },
+    {
+      "id": "shirlene_n",
+      "name": "Shirlene Nafula",
+      "bio": "Shirlene, a 27 yr old Founder and CEO of Crystal River Products Ltd. A company that is a member of China Africa Business Council. A  manufacturing company for bio based beauty and hygiene products in Kenya. The company  has a range of over 20 different products licensed by Kenya Bureau of Standards. Shirlene holds a degree in Microbiology and Biotechnology. She is currently doing her MBA at Smartly Institute. Shirlene is a multi award winner both in Kenya and Africa. Among her awards there is: 100 Most Influential Young Africans, 10 Most influential Young Africans in Business 2019, Forbes Africa 30 under 30 Business Category, 100 most influential Young Kenyans, Top 40 under 40 women Kenya, Diversity Inclusion Awards and Recognition: Youth in Leadership, Most promising founder of the Year- Finalist and Successful under 30 by Mkazi 2016, SME  champion Award, Entrepreneurship for impact finalist just to mention a few.",
+      "image_path": "https://firebasestorage.googleapis.com/v0/b/ayesbw2020.appspot.com/o/shirlene_n.jpg?alt=media&token=cdcea07f-edff-41ea-8088-73ea1b9515b6",
+      "company": "Crystal River Products Ltd",
+      "title": "Founder & CEO",
+      "twitter": "https://twitter.com/",
+      "country": "Kenya"
+    },
+    {
+      "id": "sydney_s",
+      "name": "Sydney Sam",
+      "bio": "https://firebasestorage.googleapis.com/v0/b/ayesbw2020.appspot.com/o/sydney_s.jpeg?alt=media&token=5706f8b7-3417-4e61-a917-711323e4bedf",
+      "image_path": "Sydney, 26, is a brand strategist and public speaker who is committed to transforming narratives from and about Africa through his brand engagement firm Workspace Global. He is an alumnus of Achimota School and the University of Ghana [B.Sc/MBA] who started the business in 2015 with the main aim of providing entrepreneurs access to high-quality branding that makes them globally competitive. Workspace Global’s extensive client list includes the World Bank, UNICEF, GNPC and Tullow, but Sydney’s true passion is for creating opportunities that allow African entrepreneurs to thrive. “Our goal at Workspace is to increase the value of the African product. The world is extremely demanding in terms of quality and presentation, and we level that playing field by helping entrepreneurs tell their stories so they can price more competitively and have greater access to the rest of the world.",
+      "company": "Workplace Global",
+      "title": "Serial Entrepreneur, Branding Expert & Speaker",
+      "twitter": "https://twitter.com/",
+      "country": "Ghana"
+    },
+    {
+      "id": "dorn_n",
+      "name": "Dorn Ndlovu",
+      "bio": "https://firebasestorage.googleapis.com/v0/b/ayesbw2020.appspot.com/o/dorn_n.jpg?alt=media&token=91749159-b7ce-490f-a2af-eaed686cb40d",
+      "image_path": "Dorn , a 27yr old South African Commercial Entrepreneur. With educational footprint in Business Management & Economics. A shareholder & director of three entities; Viz Entrepreneurs Blue Print Africa  (Pty) Ltd, HamiltonN Projects cc and Joritans Logistics  (Pty) Ltd. Dorn is a class of 2019 Forbes Africa 30 under 30 Business Category. He plans to expand and reach frontiers of business with other progressive market players across all countries where intention is to leave an indelible mark of growth and sustainability for future generations.",
+      "company": "Entrepreneurs Blue Print (PTY) Ltd",
+      "title": "Director & Shareholder",
+      "twitter": "https://twitter.com/",
+      "country": "South Africa"
+    },
+    {
+      "id": "takunda_c",
+      "name": "Takunda Chingozo",
+      "bio": "",
+      "image_path": "",
+      "company": "The Village Innovation Network",
+      "title": "Founder",
+      "twitter": "https://twitter.com/",
+      "country": "Zimbabwe"
+    },
+    {
+      "id": "tony_m",
+      "name": "Tony Mautsu",
+      "bio": "",
+      "image_path": "ony is a founder and CEO of Social Light Pty Ltd.  He is a digital marketing guru who provides solutions across Southern Africa. His professional expertise includes strategy development and brand position. Tony cleverly links strategic communications with commercial objectives.  In addition to founding  Social Light in 2014, Tony held entrepreneurship positions  and provided strategic counsel  and advice to HRDC, Mentor and coach at JAB as well as providing  strategic advice on corporate reputation, brand building and overall business management to both established companies and start ups alike.  Worth noting among Tony 's many accolades through Social Light are the provision of Live stream Feed at the 2017 Global Expo Botswana which hosted Sir Richard Branson as well as the 2019 Youth Town hall Meeting featuring Strive Masiyiwa.",
+      "company": "Social Light (PTY) Ltd",
+      "title": "Founder",
+      "twitter": "https://twitter.com/",
+      "country": "Botswana"
     }
   ],
   "tracks": [
@@ -122,7 +173,7 @@
       "time": "8:30am",
       "talks": [
         {
-          "speaker_id": "tebogo_m",
+          "speaker_id": "senwelo_lemogang",
           "track_id": "track1",
           "talk_type_id": "fun",
           "title": "Silence is not closest in order, the home, or paradise, but everywhere.",

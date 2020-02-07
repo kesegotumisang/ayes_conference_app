@@ -12,10 +12,11 @@ Speaker _$SpeakerFromJson(Map<String, dynamic> json) {
       json['name'] as String,
       json['bio'] as String,
       json['image_path'] as String,
+      json['title'] as String,
       json['company'] as String,
       json['twitter'] as String,
-      json['linked_in'] as String,
-      json['github'] as String);
+      json['website'] as String,
+      json['country'] as String);
 }
 
 Map<String, dynamic> _$SpeakerToJson(Speaker instance) => <String, dynamic>{
@@ -23,9 +24,10 @@ Map<String, dynamic> _$SpeakerToJson(Speaker instance) => <String, dynamic>{
       'name': instance.name,
       'bio': instance.bio,
       'company': instance.company,
+      'title': instance.title,
       'twitter': instance.twitter,
-      'github': instance.github,
-      'linked_in': instance.linkedIn,
+      'website': instance.website,
+      'lcountry': instance.country,
       'image_path': instance.imagePath
     };
 

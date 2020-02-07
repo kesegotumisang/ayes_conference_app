@@ -1,4 +1,4 @@
-import 'package:flutter_conference_app/utils.dart';
+import 'package:ayes_conference_app/utils.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'data.g.dart';
@@ -9,21 +9,22 @@ class Speaker {
   final String name;
   final String bio;
   final String company;
+  final String title;
   final String twitter;
-  final String github;
+  final String country;
 
-  @JsonKey(name: "linked_in")
-  final String linkedIn;
+  @JsonKey(name: "website")
+  final String website;
 
   @JsonKey(name: 'image_path')
   final String imagePath;
 
-  Speaker(this.id, this.name, this.bio, this.imagePath, this.company,
-      this.twitter, this.linkedIn, this.github);
+  Speaker(this.id, this.name, this.bio, this.imagePath, this.company, this.title,
+      this.twitter, this.website, this.country);
 
   AugmentedSpeaker createAugmented() {
-    return AugmentedSpeaker(this.id, this.name, this.bio, this.imagePath,
-        this.company, this.twitter, this.linkedIn, this.github);
+    return AugmentedSpeaker(this.id, this.name, this.bio, this.imagePath, this.company, this.title,
+        this.twitter, this.website, this.country);
   }
 
   factory Speaker.fromJson(Map<String, dynamic> content) =>
@@ -210,12 +211,14 @@ class AugmentedSpeaker {
   final String bio;
   final String company;
   final String twitter;
-  final String github;
-  final String linkedIn;
+  final String website;
+  final String country;
   final String imagePath;
+  final String title;
 
   AugmentedSpeaker(this.id, this.name, this.bio, this.imagePath, this.company,
-      this.twitter, this.linkedIn, this.github);
+      this.title,
+      this.twitter, this.country, this.website);
 }
 
 class TalkBoss {

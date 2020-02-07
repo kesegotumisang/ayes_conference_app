@@ -1,8 +1,8 @@
+import 'package:ayes_conference_app/interfaces/presenters.dart';
+import 'package:ayes_conference_app/interfaces/views.dart';
+import 'package:ayes_conference_app/models/data.dart';
 import 'package:flutter/widgets.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:flutter_conference_app/interfaces/presenters.dart';
-import 'package:flutter_conference_app/interfaces/views.dart';
-import 'package:flutter_conference_app/models/data.dart';
 
 class AboutPresenter implements IAboutPresenter {
   final IAboutView _view;

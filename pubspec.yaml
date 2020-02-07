@@ -1,5 +1,5 @@
-name: flutter_conference_app
-description: Flutter Conference app
+name: ayes_conference_app
+description: AYES 2020 Conference app
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -10,11 +10,12 @@ description: Flutter Conference app
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.3.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  #cloud_firestore: ^0.13.0+1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -24,19 +25,21 @@ dependencies:
   http: ^0.12.0
   json_annotation: ^2.0.0
   icons_helper:
-      git:
-        url: git://github.com/sjmcdowall/icons_helper
+    git:
+      url: git://github.com/sjmcdowall/icons_helper
   url_launcher: ^3.0.3
   flutter_villains: ^1.0.0
   firebase_messaging: ^5.1.2
   flutter_local_notifications: ^0.4.0
-  cached_network_image: ^1.1.1
+  cached_network_image: ^2.0.0-rc
+  #flutter_launcher_icons: "^0.7.3"
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+flutter_test:
+  sdk: flutter
   build_runner: ^1.0.0
   json_serializable: ^2.0.0
+  flutter_launcher_icons: "^0.7.3"
 
 
 # For information on the generic Dart part of this file, see the
@@ -56,6 +59,11 @@ flutter:
     - images/sponsors/
     - images/speakers/
     - json/
+
+flutter_icons:
+  image_path: "images/ayes.png"
+  android: true
+  ios: true
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

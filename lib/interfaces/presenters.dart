@@ -1,6 +1,5 @@
-import 'package:flutter_conference_app/models/data.dart';
-import 'package:flutter_conference_app/models/data.dart';
-import 'package:flutter_conference_app/models/list_items.dart';
+import 'package:ayes_conference_app/models/data.dart';
+import 'package:ayes_conference_app/models/list_items.dart';
 import 'package:flutter/widgets.dart';
 
 abstract class IHomePresenter {
